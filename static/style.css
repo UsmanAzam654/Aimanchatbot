@@ -1,0 +1,67 @@
+body {
+    font-family: 'Great Vibes', cursive;
+    background-image: url('https://i.ibb.co/9pKc0sZ/romantic-bg.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    width: 400px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px #ff6666;
+}
+
+#chatbox {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#chatbox p {
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px 0;
+    width: fit-content;
+    max-width: 70%;
+}
+
+.user {
+    background-color: #ff9999;
+    color: white;
+    margin-left: auto;
+    text-align: right;
+}
+
+.bot {
+    background-color: #ffcccc;
+    color: #660000;
+    margin-right: auto;
+    text-align: left;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ff6666;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff6666;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4d4d;
+}
